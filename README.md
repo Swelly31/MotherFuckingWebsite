@@ -1,0 +1,1 @@
+Ceci est l'exercice du mardi à propos de la création d'un site appelé MotherFuckingWebsite
