@@ -2,37 +2,90 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" />
+
+
+    
+    <style>
+ 
+  .paragraphecolor 
+    
+    p
+    {
+        color: blue;
+    }
+
+    .headingcolor1
+    
+    h2
+    {
+        color: green;
+    }
+
+    .headingcolor2
+    h1
+    {
+        color: green;
+    }
+
+     .headingcolor3
+    h3
+    {
+        color: green;
+    }
+     .polices1
+    p
+    {
+        font-family: papyrus;
+    }
+      .polices2
+    h1
+    {
+        font-family: Comic, sans-serif;
+    }
+   
+
+
+
+    </style>
     
     <title>Motherfucking Website</title>
 </head>
 
 <body>
-    <header>
+   
+ <div id="sampleDiv">       
         <h1>This is the <em>best</em> motherfucking website.</h1>
-        <aside>And it's fucking perfect.</aside>
-    </header>
         
+        <aside>And it's fucking perfect.</aside>
+
+   
+       
         <h2>Seriously, what the fuck else do you want?</h2>
 
+ 
         <p id="demo">Clique un de ces boutons pour voir</p>
 
-    
+   
         <script>
 function myFunction1() {
     document.body.style.backgroundColor = "magenta"
 }
 function myFunction2() {
-    document.body.style.backgroundColor = "red"
+ document.getElementById("sampleDiv").className = "paragraphecolor";
 }
 function myFunction3() {
-    document.body.style.backgroundColor = "yellow"
+ document.getElementById("sampleDiv").className = "headingcolor1  headingcolor2 headingcolor3";
 }
+function myFunction4() {
+ document.getElementById("sampleDiv").className = "polices1 polices2";
+}
+
 </script>
 
-<button onclick="myFunction1()">Clique-moi!</button>
-<button onclick="myFunction2()">Clique-moi!</button>
-<button onclick="myFunction3()">Clique-moi!</button>
+<button onclick="myFunction1()">Change le fond !</button>
+<button onclick="myFunction2()">Chanhe les paragraphes !</button>
+<button onclick="myFunction3()">Change les titres !</button>
+<button onclick="myFunction4()">Change les polices !</button>
         
         <p>You probably build websites and think your shit is special. You think your 13 megabyte parallax-ative home page is going to get you some fucking Awwward banner you can glue to the top corner of your site. You think your 40-pound jQuery file and 83 polyfills give IE7 a boner because it finally has box-shadow. Wrong, motherfucker. Let me describe your perfect-ass website:</p>
         
@@ -85,7 +138,7 @@ function myFunction3() {
     
     <!-- yes, I know...wanna fight about it? -->
 
-
+ </div> 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -102,6 +155,6 @@ window.location="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
      
 
     </script>
-    
+   
 </body>
 </html>
