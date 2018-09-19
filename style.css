@@ -1,5 +1,42 @@
-h1
-{
-    color: red;
-}
+  h1
+    {
+        color: red;
+    }
 
+  .paragraphecolor 
+    
+    p
+    {
+        color: blue;
+    }
+
+    .headingcolor1
+    
+    h2
+    {
+        color: green;
+    }
+
+    .headingcolor2
+    h1
+    {
+        color: green;
+    }
+
+     .headingcolor3
+    h3
+    {
+        color: green;
+    }
+     .polices1
+    p
+    {
+        font-family: papyrus;
+    }
+      .polices2
+    h1
+    {
+        font-family: Comic, sans-serif;
+    }
+   
+   
