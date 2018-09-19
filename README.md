@@ -12,7 +12,7 @@ J'ai créé un fichier index.html avec le contenu du site The bestmotherfuucker 
 
 J'ai créé un fichier css "style" pour modifier l'aspect visuel du site avec toutes caractéristiques demandées :
 		- Header rouge par défaut
-		- creéation de différentes classes pour réaliser les actions sur les boutons
+		- création de différentes classes pour réaliser les actions sur les boutons
 
 
 Le site est disponible sur Github ici ==> https://github.com/Swelly31/MotherFuckingWebsite
